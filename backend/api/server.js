@@ -254,7 +254,7 @@ ${context}
         repo,
         pull_number: pr.number,
         body: "🤖 AI Review: No issues found — PR looks good!",
-        event: "APPROVE",
+        event: "COMMENT",
       });
       saveLastReviewedSha(owner, repo, pr.number, latestSha);
       return res.json({ message: "✅ No issues found." });

@@ -7,10 +7,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://farrukh12255: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@github.com/farrukh12255/AI_Code_Reviewer.git"
-  },
   "author": "",
   "license": "ISC",
   "bugs": {
